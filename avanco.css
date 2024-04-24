@@ -1,0 +1,266 @@
+body {
+    background-color: #000;
+    background-image: linear-gradient(to bottom, rgba(20, 42, 13, 0.8), transparent);
+    margin: 10vmin;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+h1 {
+    color: #fff; 
+    text-align: center;
+}
+
+p {
+    color: #fff;
+    text-align: justify;
+    margin-top: 10px; 
+    padding: 10px; 
+    border: 1px solid #ffffff59; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.btn-change {
+    margin-bottom: 2vmin; 
+    padding: 10px 20px;
+    background-color: rgb(52, 224, 36);
+    border: none;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-change:hover {
+    background-color: #090;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; 
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0F0;
+    border: none;
+    color: #000;
+    font-family: Poppins;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin: 1vmin;
+
+}
+
+
+.btn:hover {
+    background-color: #090;
+}
+
+
+.btn-voltar {
+    float: left; 
+    margin-right: 10px; 
+    padding: 10px 20px;
+    background-color: #0F0;
+    border: none;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-voltar:hover {
+    background-color: #090;
+}
+
+.btn-avancar {
+    float: right; 
+    padding: 10px 20px;
+    background-color: #0F0;
+    border: none;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-avancar:hover {
+    background-color: #090;
+}
+.quote-panel {
+    background-color: #0f0;
+    color: #000;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    text-align: center;
+}
+
+.quote-panel blockquote {
+    font-size: 18px;
+    font-style: italic;
+    margin: 0;
+}
+
+.quote-panel footer {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+    color: white;
+}
+
+.fighter {
+    width: 45vmin;
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.fighter img {
+    max-width: 40vmin;
+    height: auto;
+    transition: 1.5s;
+}
+
+.fighter img:hover,
+.fighter img:hover {
+    transform: scale(1.25);
+}
+
+.fighter input {
+    margin-bottom: 0.5em;
+}
+
+.versus {
+    margin: 0 1em;
+    font-size: 1.5em;
+}
+
+#result {
+    margin-top: 1em;
+    text-align: center;
+}
+
+#end-game {
+    margin-top: 1em;
+    margin-left: 1vmin;
+    padding: 0.5em 1em;
+    background-color: #0F0;
+    border: none;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#choose-tribe {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background-color: #0F0;
+    border: none;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#end-game:hover,
+#choose-tribe:hover {
+    background-color: #090;
+}
+
+#game2 {
+    text-align: center;
+}
+
+#status {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #0F0;
+    border: none;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #090;
+}
+
+.macanildo {
+    width: 45vmin;
+    margin: 1em auto;
+    padding: 1em;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.macanildo img {
+    max-width: 40vmin;
+    height: auto;
+    transition: 1.5s;
+}
+
+.macanildo img:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 750px) {
+    section {
+        padding: 12px;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+    
+    p {
+        font-size: 12px;
+    }
+    
+    .btn {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+}

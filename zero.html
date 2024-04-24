@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geração Zero dos Computadores</title>
+
+    <link rel="stylesheet" href="zero.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Geração Zero dos Computadores</h1>
+    </header>
+
+    <section>
+    <div class="slides">
+        <h1>Ábaco</h1>
+
+       <center> <img src="https://www.soumae.org/wp-content/uploads/2021/11/abaco.jpg" > </center> 
+        <p>
+            O ábaco é um dispositivo de cálculo antigo e fascinante que remonta a milhares de anos e foi utilizado por diversas civilizações ao redor do mundo. Sua presença na história da humanidade é testemunho da necessidade universal de realizar operações matemáticas básicas e complexas.
+            <br><br>
+            Consistindo em uma estrutura retangular, o ábaco tradicionalmente possui hastes verticais onde contas ou pedras são movidas para representar valores numéricos. A organização das contas em colunas representa diferentes ordens de magnitude, como unidades, dezenas, centenas e assim por diante.
+
+          
+            <br><br>
+            O ábaco tem sido utilizado em várias formas ao longo da história. Por exemplo, o ábaco soroban, originário do Japão, é uma versão refinada que utiliza uma disposição específica das contas em cada haste, permitindo cálculos rápidos e precisos. Da mesma forma, o ábaco chinês tem uma estrutura única que facilita a realização de operações aritméticas complexas.
+            <br><br>
+            O que torna o ábaco notável é sua capacidade de realizar uma ampla gama de operações matemáticas. Além das operações básicas de adição e subtração, o ábaco pode ser usado para multiplicação, divisão e até mesmo para cálculos mais avançados, como raízes quadradas e exponenciais.
+            <br><br>
+            Embora tenha sido amplamente substituído por calculadoras eletrônicas e computadores modernos em muitos aspectos da vida cotidiana, o ábaco ainda é valorizado em algumas culturas como uma ferramenta educacional para o desenvolvimento de habilidades matemáticas fundamentais. Sua persistência ao longo dos séculos é um testemunho de sua eficácia e relevância contínua na história da computação e da matemática.
+        </p>
+
+        <div class="abaco">
+            <div class="linha" id="dezenas">
+                <h3>D.</h3>
+                <div class="conta"></div>
+                <div class="conta"></div>
+                <div class="conta"></div>
+                <div class="conta"></div>
+                <div class="conta"></div>
+                <div class="conta"></div>
+                <div class="conta"></div>
+                <div class="conta"></div>
+                <div class="conta"></div>
+            </div>
+            <div class="linha" id="unidades">
+                <h3>U.</h3>
+                <div class="conta"></div>
+                <div class="conta"></div>
+                <div class="conta"></div>
+                <div class="conta"></div>
+                <div class="conta"></div>
+                <div class="conta"></div>
+                <div class="conta"></div>
+                <div class="conta"></div>
+                <div class="conta"></div>
+            </div>
+
+            <div class="placar">
+                <h3>Resultado: <span id="placar-total">0</span></h3>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="segundo-painel" class="segundo-painel">
+        <h1>Máquina Diferencial de Babbage</h1>
+
+        <center> <img src="https://www.thoughtco.com/thmb/t7zjM9gGElZO4suhnC384cCShdM=/2500x1905/filters:no_upscale():max_bytes(150000):strip_icc()/Babbage_Analytical_Engine_1837-5b7ea419c9e77c005731751e.jpg"></center> 
+         <p>
+            A Máquina Diferencial de Charles Babbage foi uma das primeiras tentativas significativas de criar um dispositivo mecânico para realizar cálculos matemáticos complexos. Concebida no início do século XIX pelo matemático e engenheiro britânico Charles Babbage, a Máquina Diferencial foi projetada para calcular tabelas matemáticas através de métodos de diferenças finitas, um conceito fundamental na análise numérica.
+             <br><br>
+             A ideia central por trás da Máquina Diferencial era automatizar o processo de produção de tabelas matemáticas, que na época eram elaboradas manualmente e sujeitas a erros humanos. A máquina seria capaz de calcular polinômios de grau elevado e, assim, produzir tabelas de funções matemáticas com alta precisão.
+ 
+           
+             <br><br>
+             Babbage trabalhou em vários modelos da Máquina Diferencial ao longo de décadas, refinando e aprimorando seu projeto. No entanto, devido a uma série de desafios técnicos, financeiros e políticos, Babbage nunca conseguiu completar uma versão funcional da máquina durante sua vida.
+             <br><br>
+             Embora a Máquina Diferencial de Babbage nunca tenha sido construída com sucesso durante sua vida, seu trabalho pioneiro e visão revolucionária tiveram um impacto significativo no desenvolvimento futuro da computação. Babbage é frequentemente considerado um dos precursores da computação moderna, e sua Máquina Diferencial é reconhecida como um marco importante na história da computação.
+             <br><br>
+         </p>
+
+         <div>
+            <label for="input1" style="color: white;">Valor 1:</label>
+            <input type="number" id="input1">
+            <br><br>
+            <label for="input2" style="color: white; margin-left: -3px;">Valor 2:</label>
+            <input type="number" id="input2">
+            <br><br>
+        </div>
+        <center><button onclick="calcularDiferenca()" id="calcular">Calcular Diferença</button></center>
+        <div id="resultado" style="color: white;"></div>
+    </section>
+
+    <section>
+        <h1>Tabuladora</h1>
+
+        <center> <img src="https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photos/13590840/tab.jpg"></center> 
+         <p>
+            As tabuladoras foram um marco importante na história da computação e da análise de dados. Desenvolvidas por Herman Hollerith no final do século XIX, essas máquinas revolucionaram a forma como as informações eram processadas e analisadas.
+             <br><br>
+             O sistema de tabulação de dados usando cartões perfurados foi uma inovação genial. Cada cartão continha informações sobre um indivíduo ou uma entidade, com os dados sendo representados por furos feitos no cartão. As tabuladoras podiam então ler esses cartões e contar ou classificar as informações com base nos padrões de perfuração.
+             <br><br>
+             Essas máquinas foram inicialmente usadas para processar dados do censo, permitindo uma análise mais rápida e eficiente da enorme quantidade de informações coletadas. Antes das tabuladoras, o processo de tabulação de dados era extremamente demorado e propenso a erros. Com as tabuladoras, foi possível automatizar esse processo e obter resultados mais precisos em muito menos tempo.
+             <br><br>
+             Além de seu uso nos censos, as tabuladoras também encontraram aplicações em outras áreas, como na contabilidade e na gestão de estoques. Sua introdução marcou o início de uma nova era na análise de dados e teve um impacto significativo no desenvolvimento da computação e da tecnologia da informação.
+             <br><br>
+         </p>
+         <div class="container">
+            <h1>Contador</h1>
+            <center><div id="counter">0</div></center>
+            <div class="button-container">
+            <button class="tabuladora" id="incrementBtn">Incrementar</button>
+            <button class="tabuladora" id="resetBtn">Reiniciar</button>
+            </div>
+          </div>
+    </section>
+</div>
+
+
+<div class="button-container">
+    <a href="avanco.html" class="btn">Retroceder Evolução</a>
+    <a href="primeira.html" class="btn">Continuar Evolução</a>
+</div>
+
+<script src="zero.js"></script>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
